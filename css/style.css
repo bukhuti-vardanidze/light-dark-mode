@@ -110,7 +110,7 @@ body{
     font-family: 'Dibat Gothic', sans-serif;
 }
 
-.theme-switch-wrapper{
+.theme-switcher-wrapper{
     align-items: center;
     margin-top: 60px;
 }
@@ -135,7 +135,7 @@ body{
      top: 0;
      transition: 0.9s;
 }
-.slider :before {
+.slider:before {
     background-color: rgb(41,52,61);
     bottom: 4px;
     content:  "";
@@ -161,3 +161,4 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+

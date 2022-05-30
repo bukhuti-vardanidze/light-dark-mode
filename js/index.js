@@ -5,7 +5,7 @@ if (currentTheme){
     document.documentElement.setAttribute('data-theme', currentTheme);
      
     if(currentTheme === 'dark') {
-        toggleswitch.ariaChecked = true;
+        toggleswitch.Checked = true;
     }
 
 
